@@ -1,0 +1,10 @@
+
+*.xml
+.idea/vcs.xml
+.idea/talntr.iml
+.idea/prettier.xml
+.idea/modules.xml
+.idea/jsLinters/eslint.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
