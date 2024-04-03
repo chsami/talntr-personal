@@ -134,9 +134,9 @@ export default function Home() {
           </Navbar>
         </div>
         <Divider className="mt-4 w-full h-0.5 bg-primary opacity-50" />
-        <div className=" container sm:mx-auto pr-16 pl-16">
-          <div className="w-full grid md:grid-cols-1 lg:grid-cols-2 mt-32 relative h-auto lg:mb-16 xl:mb-32">
-            <div className="grid justify-center place-items-start mr-16">
+        <div className=" container sm:mx-auto md:pr-16 md:pl-16">
+          <div className="w-full grid md:grid-cols-1 lg:grid-cols-2 mt-16 lg:mt-32 relative h-auto md:mb-16 xl:mb-32">
+            <div className="grid justify-center place-items-start lg:mr-16 text-center p-4 lg:p-0">
               <div className="">
                 <Banner></Banner>
                 {/*<JoinWaitingList></JoinWaitingList>*/}
@@ -192,70 +192,78 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-full flex justify-center mb-24">
-            <h1 className="text-5xl text-primary font-bold">CONNECT</h1>
-          </div>
-          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2">
-            <div className="grid grid-cols-1 gap-16 self-center justify-items-start">
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" /> Je
-                Privacy Staat Centraal
-              </span>
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
-                Data Inzichten
-              </span>
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" /> Uw
-                Volgende Stap
-              </span>
+          <div className="grid grid-cols-1 gap-16">
+            <div className="w-full flex justify-center">
+              <h1 className="text-4xl lg:text-5xl text-primary font-bold">
+                CONNECT
+              </h1>
             </div>
-            <div className="hidden md:block">
-              <Image src={connectImage} alt={'Connect image'} />
+            <div className="w-full h-auto grid grid-cols-1 lg:grid-cols-2">
+              <div className="grid grid-cols-1 gap-16 self-center justify-items-center lg:justify-items-start">
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Je Privacy Staat Centraal
+                </span>
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Data Inzichten
+                </span>
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Uw Volgende Stap
+                </span>
+              </div>
+              <div className="hidden lg:block">
+                <Image src={connectImage} alt={'Connect image'} />
+              </div>
             </div>
-          </div>
-          <div className="w-full flex justify-center mb-24 mt-24">
-            <h1 className="text-5xl text-primary font-bold">SEARCH</h1>
-          </div>
-          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2">
-            <div className="hidden md:block">
-              <Image src={searchImage} alt="banner image" />
+            <div className="w-full flex justify-center">
+              <h1 className="text-4xl lg:text-5xl text-primary font-bold">
+                SEARCH
+              </h1>
             </div>
-            <div className="grid grid-cols-1 gap-16 self-center justify-items-end">
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
-                Extensive Search centraal
-              </span>
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
-                Personality & Value
-              </span>
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
-                Data Insights
-              </span>
+            <div className="w-full h-auto grid grid-cols-1 lg:grid-cols-2">
+              <div className="hidden lg:block">
+                <Image src={searchImage} alt="banner image" />
+              </div>
+              <div className="grid grid-cols-1 gap-16 self-center justify-items-center lg:justify-items-end">
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Extensive Search centraal
+                </span>
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Personality & Value
+                </span>
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Data Insights
+                </span>
+              </div>
             </div>
-          </div>
-          <div className="w-full flex justify-center mt-24 mb-24">
-            <h1 className="text-5xl text-primary font-bold">EVOLVE</h1>
-          </div>
-          <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2">
-            <div className="grid grid-cols-1 gap-16 self-center justify-items-start">
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
-                Boost Your Career centraal
-              </span>
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
-                Develop Your Plan Match
-              </span>
-              <span className="flex text-3xl">
-                <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
-                Build Your Future
-              </span>
+            <div className="w-full flex justify-center">
+              <h1 className="text-4xl lg:text-5xl text-primary font-bold">
+                EVOLVE
+              </h1>
             </div>
-            <div className="hidden md:block">
-              <Image src={evolveImage} alt={'Evolve Image'} />
+            <div className="w-full h-auto grid grid-cols-1 lg:grid-cols-2">
+              <div className="grid grid-cols-1 gap-16 self-center justify-items-center lg:justify-items-start">
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Boost Your Career centraal
+                </span>
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Develop Your Plan Match
+                </span>
+                <span className="flex text-2xl lg:text-3xl">
+                  <IconCheck size="32" color="#3582dc" className="mt-1 mr-1" />{' '}
+                  Build Your Future
+                </span>
+              </div>
+              <div className="hidden lg:block">
+                <Image src={evolveImage} alt={'Evolve Image'} />
+              </div>
             </div>
           </div>
         </div>

@@ -7,12 +7,12 @@ export default function Banner() {
   ///test
   return (
     <div className={styles.banner_wrapper + ' mb-5'}>
-      <h2 className="text-5xl text-primary font-bold mb-16">
+      <h2 className="text-4xl md:text-5xl text-primary font-bold mb-16">
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         Where tomorrow's opportunities become today's reality.
       </h2>
       <ul className={styles.container_list}>
-        <li className={styles.container_list_item + ' text-3xl'}>
+        <li className={styles.container_list_item + ' text-2xl md:text-3xl'}>
           <p>Wat brengt de toekomst jou?</p>
           <p>Dat beslis je zelf..</p>
           <p>
@@ -20,7 +20,7 @@ export default function Banner() {
           </p>
           <Divider className="mt-4 mb-4"></Divider>
         </li>
-        <li className={styles.container_list_item + ' text-lg'}>
+        <li className={styles.container_list_item + ' text-md md:text-lg'}>
           <p>
             Talntr is hét jobplatform <u>vàn</u> de toekomst <u>vóór</u> je
             toekomst!
